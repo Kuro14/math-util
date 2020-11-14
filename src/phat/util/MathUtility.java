@@ -21,7 +21,6 @@ public class MathUtility {
     //21! cực lớn, tràn kiểu long, chứa ko nổi
     //int: tối da 2 tỷ 1 mấy
     //h mà tính giai thừa trong giới hạn đầu vào từ 0..20
-    
     public static long getFactorial(int n){
         if(n < 0 || n > 20)
             throw new IllegalArgumentException("n must be between 0..20");
