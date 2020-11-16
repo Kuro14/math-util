@@ -41,3 +41,13 @@ public class MathUtil {
     }
     
 }
+
+//muon ket luan ham minh ngon thi ta phai nhin bang mat cai ket qua nhin bang ham va so sanh voi ki vong
+//làm từng trường hợp chạy hàm - test case
+//cách này ổn, nhưng mất sức
+
+//NÂNG CAO: ÙNG MÀU SẮC, XANH, ĐỎ ĐỂ KẾT LUẬN
+//TA THẤY XANH, HÀM Ý MỌI TÌNH HUỐNG ỔN
+//TA THẤY ĐỎ, THỈ 1 THẰNG MÀU ĐỎ, COI NHƯ HÀM TOANG
+//TA XÀI THÊM 1 FRAMEWORK, UNIT TÉT TÊN CHUNG
+//JUNIT,NUNIT, TESTING,...
