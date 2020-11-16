@@ -21,14 +21,14 @@ public class MathUtilityTest {
     //hàm test
     public void getFactorial_RunsWell_IfValidArgument() {
         assertEquals(720, getFactorial(6)); //xanh vì mình tính ra như kux thuật
-        assertEquals(1, getFactorial(1));
+        assertEquals(1, getFactorial(0));
     }
     
     //cần tét coi có ném về ngoại lệ hay ko??
     //nếu dúng là mày ném về ngoại lệ IllegalArgumentException trong
     //tình huống giai thừa -5 thì tao có màu xanh
     
-     @Test (expected = SQLException.class)
+     @Test (expected = IllegalArgumentException.class)
      public void getFactorial_ThrowsException_IfValidArgument() {
          getFactorial(-5);
          
