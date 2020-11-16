@@ -21,6 +21,7 @@ public class MathUtilityTest {
     //hàm test
     public void getFactorial_RunsWell_IfValidArgument() {
         assertEquals(720, getFactorial(6)); //xanh vì mình tính ra như kux thuật
+        assertEquals(1, getFactorial(1));
     }
     
     //cần tét coi có ném về ngoại lệ hay ko??
