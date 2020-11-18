@@ -51,8 +51,7 @@ public class MathUtility {
 
             // n > 1 & n <= 20 rồi, ráp công thức đệ quy
         return n * getFactorial(n - 1);
-        
-
+       
     }
 
     // Minh minh hoaj khais niemej  Refactoring - tối ưu , chỉnh sửa lại code cho tốt hơn
